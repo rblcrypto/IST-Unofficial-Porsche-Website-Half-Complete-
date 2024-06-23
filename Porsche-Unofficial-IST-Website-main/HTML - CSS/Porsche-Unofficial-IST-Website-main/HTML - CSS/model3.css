@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    font-family: 'Oswald';
+  }
+  
+  .topnav a:hover {
+    background-color: #A3ACB3;
+    color: black;
+  }
+  
+  
+  .topnav a.active {
+    background-color: #F8CD02;
+    color: white;
+  }
+
+  .btn {
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 20px;
+    height: 100px;
+    width: 250px;
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    top: 370px;
+    left: 250px;
+    font-family: 'Oswald'
+  }
+
+  .btn:hover {
+    background-color: #A3ACB3;
+    color: black;
+  }
+
+  .img1 {
+    width: 38%;
+    position: absolute;
+    left: 155px;
+    top: 110px;
+  }
+
+  .img2 {
+    width: 10%;
+    height: 89%;
+    position: absolute;
+    left: 1140px;
+    top: 60px;
+  }
+
+  .img3 {
+    width: 10%;
+    height: 89%;
+    position: absolute;
+    left: 10px;
+    top: 60px;
+  }
+
+  .aesborder {
+    display: inline-block;
+    position: relative;
+    padding: 10px 10px;
+  }
+
+  .aesborder::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 5px solid transparent;
+    border-top-color: #F8CD02;
+    border-right-color: #F8CD02;
+    border-bottom-color: #980611;
+    border-left-color: #980611;
+    pointer-events: none;
+  }
+
+  body {
+    background-image: url(updated\ porsche\ background.jpg);
+    color:#f2f2f2;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 43px;
+    margin-left: 730px;
+    margin-top: 30px;
+    font-family: 'Oswald';
+  }
+
+  p {
+    border: 3px solid #546A78;
+    padding: 10px 10px;
+    display: inline-block;
+    font-size: 19px;
+    margin-left: 640px;
+    margin-top: 1px;
+    font-family: 'Oswald';
+  }
