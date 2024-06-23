@@ -38,8 +38,8 @@
     font-size: 28px;
     color: white;
     position: absolute;
-    top: 360px;
-    left: 730px;
+    top: 380px;
+    left: 690px;
     font-family: 'Oswald'
   }
 
@@ -49,10 +49,10 @@
   }
 
   .img1 {
-    width: 40%;
+    width: 35%;
     position: absolute;
-    left: 600px;
-    top: 110px;
+    left: 200px;
+    top: 295px;
   }
 
   .img2 {
@@ -85,10 +85,10 @@
     bottom: 0;
     left: 0;
     border: 5px solid transparent;
-    border-top-color: #980611;
+    border-top-color: #F8CD02;
     border-right-color: #980611;
-    border-bottom-color: #F8CD02;
-    border-left-color: #F8CD02;
+    border-bottom-color: #980611;
+    border-left-color: #980611;
     pointer-events: none;
   }
 
@@ -100,8 +100,8 @@
 
   h1 {
     font-size: 43px;
-    margin-left: 207px;
-    margin-top: 30px;
+    margin-left: 510px;
+    margin-top: 10px;
     font-family: 'Oswald';
   }
 
@@ -110,7 +110,7 @@
     padding: 10px 10px;
     display: inline-block;
     font-size: 19px;
-    margin-left: 160px;
+    margin-left: 155px;
     margin-top: 1px;
     font-family: 'Oswald';
   }
